@@ -113,4 +113,4 @@ function main(args)
     end
 end
 
-@profview main([".", "/tmp"])
+@time main(ARGS)
